@@ -10,9 +10,11 @@ public class Ej3 : MonoBehaviour
     //que incluya el texto de la variable.
     //Por ejemplo, si en la variable se ingresa el texto “Ana”, el mensaje en consola debe decir “Hola Ana”.
 
+    public string nombre;
+
     void Start()
     {
-        
+        Debug.Log("Hola " + nombre);
     }
 
     // Update is called once per frame
